@@ -1,0 +1,11 @@
+//dont mind this, im just testing
+
+query ExampleQuery($rocketId: ID!) {
+  rocket(id: $rocketId) {
+    name
+    first_flight
+    description
+    success_rate_pct
+  }
+
+}
