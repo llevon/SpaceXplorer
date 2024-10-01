@@ -2,7 +2,6 @@ package com.example.spacexplorer.data.models
 
 import android.os.Build
 import androidx.annotation.RequiresApi
-import com.example.spacexplorer.domain.models.LaunchInfoModel
 import java.time.LocalDateTime
 
 data class LaunchInfoModelDto(
